@@ -1,0 +1,615 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    margin: 15px 25px;
+}
+
+.menu-item {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+i {
+    margin-left: 5px;
+}
+
+#dropcard {
+    font-family: "Poppins", sans-serif;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+    top: 55px;
+    right: 395px;
+    display: none;
+}
+
+#demo:hover
+#dropcard {
+    display: flex;
+}
+
+.drop-option {
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+nav button {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    margin: 15px 25px;
+}
+
+#section-1 {
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    width: 100vw;
+    height: 100vh;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#center > h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+}
+
+#center > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+}
+
+/* Section-2 Starts */
+
+#section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.steps {
+    width: 25vw;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#step-1 {
+    background-color: #5acda6;
+}
+
+#step-2 {
+    background-color: #91ac41;
+}
+
+#step-3 {
+    background-color: #e4b476;
+}
+
+#step-4 {
+    background-color: #f69dad;
+}
+
+.step-icon {
+    font-size: 96px;
+    color: white;
+}
+
+.step-label {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.step-desc {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    padding: 10px 40px;
+}
+
+#step-1:hover #cut-icon {
+    transform: scale(1.1);
+}
+
+#step-2:hover #paint-icon {
+    transform: scale(1.1);
+}
+
+#step-3:hover #shopping-icon {
+    transform: scale(1.1);
+}
+
+#step-4:hover #smile-icon {
+    transform: scale(1.1);
+}
+
+/* Section-2 ends, Section-3 starts */
+
+#section-3 {
+    background-color: #f7eee2;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#section-3 > p:first-of-type {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: "caveat", cursive;
+    margin: 0;
+}
+
+#section-3 > h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#section-3 > p:nth-of-type(2) {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+}
+
+.store-icon {
+    font-size: 60px;
+}
+
+.item {
+    width: 15vw;
+    height: 300px;
+    text-align: center;
+}
+
+#item-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+
+.item > h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.item > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+#item-1:hover #icon-1 {
+    transform: scale(1.1);
+}
+
+#item-2:hover #icon-2 {
+    transform: scale(1.1);
+}
+
+#item-3:hover #icon-3 {
+    transform: scale(1.1);
+}
+
+#item-4:hover #icon-4 {
+    transform: scale(1.1);
+}
+
+/* Section-3 ends, Section-4 Starts */
+
+#section-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#section-4 > p:first-of-type {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: "Caveat", cursive;
+    margin: 0;
+}
+
+#section-4 > h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#section-4 > p:nth-of-type(2) {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+#testimonials-wrapper {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimony {
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 300;
+    height: 350;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.testimony > img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.testimony > p:first-of-type{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: #8b8b99;
+}
+
+.testimony > h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.testimony > p:last-of-type {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #8b8b99;
+    font-style: italic;
+}
+
+.testimony:hover {
+    box-shadow: 1px 1px 10px #aaa;
+}
+
+
+/* Section-4 ends, Section-5 starts */
+
+#section-5 {
+    display:flex;
+}
+
+#left-section > img{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+#right-section {
+    width: 45%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-size: cover;
+    background-position: left;
+}
+
+#text-wrapper {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 350px;
+    height: 400px;
+
+}
+
+#text-wrapper > h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#text-wrapper > p {
+    color: #8b8b99;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 40px;
+    border: none;
+}
+
+#subscribe-btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#subscribe-btn:hover {
+    background-color: transparent;
+    border: 1px solid #f69dad;
+    color: #f69dad;
+}
+
+/* Section-5 ends, Section-6 starts */
+
+#section-6 {
+    width: 100%;
+    background-color: #f6fcfa;
+}
+
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.stats {
+    margin-right: 150px;
+}
+
+.stats > h3 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.stats > p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Section-6 ends, Section-7 starts */
+
+#section-7 > div{
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+#section-7 h3 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#line-separator {
+    width: 96px;
+    height: 1px;
+    display: inline-block;
+    background-color: #e4b476;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+
+#section-7 iframe {
+    width: 100%;
+    height: 425px;
+    margin-bottom: 150px;
+}
+
+/* Section-7 ends, Section-8 starts */
+
+#address-wrapper {
+    display: flex;
+    text-align: left;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+#address-section {
+    margin-right: 100px;
+}
+
+#address-wrapper p:first-of-type {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: "Caveat", cursive;
+    margin: 0;
+}
+
+#address-wrapper h3 {
+    font-size: 44px;
+    margin: 0;
+}
+
+#address-wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+
+}
+
+#address-wrapper h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+#address-wrapper input, textarea {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-top: 16px;
+    box-sizing: border-box;
+
+}
+
+#contact-submit-btn {
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* Section-8 ends */
+
+footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #232323;
+    padding-top: 40px;
+    color: white;
+}
+
+
+/* For smaller screens */
+
+@media screen and (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+
+    #section-2 {
+        flex-direction: column;
+    }
+    
+    .steps {
+        width: 100vw;
+    }
+
+    #item-wrapper {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100vw;
+    }
+
+    #testimonials-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .testimony {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #section-5 {
+        flex-direction: column;
+    }
+    
+    #right-section {
+        width: 100vw;
+    }
+
+    #text-wrapper {
+        margin-left: 10%;
+    }
+
+    #stats-wrapper {
+        flex-direction: column;
+    }
+
+    .stats {
+        margin-right: 0;
+    }
+
+    #address-wrapper {
+        flex-direction: column;
+    }
+
+    #address-section, #contact-section {
+        padding: 30px;
+    }
+}
