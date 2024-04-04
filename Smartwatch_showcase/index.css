@@ -1,0 +1,148 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#left-section > img {
+    width: 100%;
+    height: 600px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #aaa;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#black-color {
+    width: 60px;
+    height: 40px;
+    background-color: #23211f;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+#red-color {
+    width: 60px;
+    height: 40px;
+    background-color: #ca3d22;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+#blue-color {
+    width: 60px;
+    height: 40px;
+    background-color: #565681;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+#purple-color {
+    width: 60px;
+    height: 40px;
+    background-color: #8a5362;
+    border-radius: 6px;
+}
+
+#time-btn {
+    padding: 10px 30px;
+    background-color: #aaa;
+    margin-right: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+#heartrate-btn {
+    padding: 10px 30px;
+    background-color: #aaa;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+#buynow-btn {
+    padding: 20px 40px;
+    background-color: #fc8712;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#clock {
+    position: absolute;
+    top: 33%;
+    left: 18%;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+i {
+    color: red;
+    font-size: 100px;
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#heart-rate {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 18.5%;
+}
+
+#heart-rate > p {
+    margin-top: 30px;
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes beat {
+
+ 
+    0% {
+ 
+         transform: scale(1.1);
+ 
+     }
+ 
+     50% {
+ 
+         transform: scale(0.9);
+ 
+     }
+ 
+ 
+     
+ 100% {
+ 
+         transform: scale(1.1);
+ 
+     }
+ 
+ }
